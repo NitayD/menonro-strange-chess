@@ -1,4 +1,4 @@
-export const PUTIN = 'PUTIN'
+export const PUTIN = Symbol('PUTIN')
 
 export const setPutin = (payload) => {
   return {
